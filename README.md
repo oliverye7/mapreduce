@@ -1,6 +1,6 @@
 # mapreduce
 
-Transparency: I wrote all of `./proto`, `./worker`, `./coordinator`,  `client.rs` and `lib.rs.` The other folders were given to me as part of a course assignment from UC Berkeley's Operating Systems (CS162) course, which I took in Spring 2023. I haven't edited the code from this directory since then, so there are a couple comments to myself (in `./coordinator`). 
+Transparency: I wrote all of `./proto`, `./src/worker`, `./src/coordinator`,  `./srcclient.rs` and `./src/lib.rs.` The other folders were given to me as part of a course assignment from UC Berkeley's Operating Systems (CS162) course, which I took in Spring 2023. I haven't edited the code from this directory since then, so there are a couple comments to myself (in `./coordinator`). 
 
 I'm pretty proud of this repository since implementing MapReduce was pretty nontrivial. The code would be a lot cleaner for a production level code, but hopefully it demonstrates a baseline level of code cleanliness that I tend to write my code with; my `gRPC_image_rotation_service` repository demonstrates significantly more code clarity.
 
